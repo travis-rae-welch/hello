@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require should"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,10 @@
   "homepage": "https://github.com/travis-rae-welch/hello#readme",
   "description": "",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.3.0"
   }
 }
